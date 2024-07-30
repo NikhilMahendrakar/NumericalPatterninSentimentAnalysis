@@ -1,11 +1,11 @@
 # NUMERICAL PATTERN IN VARIOUS SENTIMENTS
 
-This paper aims in finding numerical patterns in various sentences. This project aims in giving a range of numerical value given a sentence containing complex emotions. Then, the numerical values can be further used for various other data analytics.
+This paper aims to find numerical patterns in various sentences. This project aims to provide a range of numerical values given a sentence containing complex emotions. These numerical values can then be used for various other data analytics.
 
 ## Technical Description of Project
 
 1. **Web Scraping**:
-    - We are using web-scraping techniques to get various posts on Reddit. The dataset used in this project is mainly from Reddit.
+    - We use web-scraping techniques to collect various posts on Reddit. The dataset used in this project is mainly from Reddit.
 
 2. **Praw Service**:
     - We use the “Praw” service to scrape Reddit data from various relevant subreddits as shown in the code. We create a service (API) with relevant credentials to access the service.
@@ -21,9 +21,7 @@ This paper aims in finding numerical patterns in various sentences. This project
 
 6. **Mathematical Formula**:
 
-    
-     \frac{\text{Sigmoid}\left(\sum_{i=1}^{n} n_i \cdot \lambda_i\right)}{N} + \frac{\sum_{i=1}^{n} \alpha_i \cdot (\text{total number of neighbours})}{N} + F
-    
+    ![\Large - \frac{\text{Sigmoid}\left(\sum_{i=1}^{n} n_i \cdot \lambda_i\right)}{N} + \frac{\sum_{i=1}^{n} \alpha_i \cdot (\text{total number of neighbours})}{N} + F](https://latex.codecogs.com/svg.latex?\Large&space;- \frac{\text{Sigmoid}\left(\sum_{i=1}^{n} n_i \cdot \lambda_i\right)}{N} + \frac{\sum_{i=1}^{n} \alpha_i \cdot (\text{total number of neighbours})}{N} + F)
 
     - Eigen Vector Centrality
     - Katz-Centrality
