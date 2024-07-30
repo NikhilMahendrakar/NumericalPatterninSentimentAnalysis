@@ -21,9 +21,9 @@ This paper aims in finding numerical patterns in various sentences. This project
 
 6. **Mathematical Formula**:
 
-    \[
-    - \frac{\text{Sigmoid}\left(\sum_{i=1}^{n} n_i \cdot \lambda_i\right)}{N} + \frac{\sum_{i=1}^{n} \alpha_i \cdot (\text{total number of neighbours})}{N} + F
-    \]
+    
+     \frac{\text{Sigmoid}\left(\sum_{i=1}^{n} n_i \cdot \lambda_i\right)}{N} + \frac{\sum_{i=1}^{n} \alpha_i \cdot (\text{total number of neighbours})}{N} + F
+    
 
     - Eigen Vector Centrality
     - Katz-Centrality
