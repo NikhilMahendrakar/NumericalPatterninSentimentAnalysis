@@ -21,7 +21,8 @@ This paper aims to find numerical patterns in various sentences. This project ai
 
 6. **Mathematical Formula**:
 
-    ![\Large - \frac{\text{Sigmoid}\left(\sum_{i=1}^{n} n_i \cdot \lambda_i\right)}{N} + \frac{\sum_{i=1}^{n} \alpha_i \cdot (\text{total number of neighbours})}{N} + F](https://latex.codecogs.com/svg.latex?\Large&space;- \frac{\text{Sigmoid}\left(\sum_{i=1}^{n} n_i \cdot \lambda_i\right)}{N} + \frac{\sum_{i=1}^{n} \alpha_i \cdot (\text{total number of neighbours})}{N} + F)
+    <img width="910" alt="image" src="https://github.com/user-attachments/assets/1a4eceae-8523-49f6-a3d8-aad2be6fc325">
+
 
     - Eigen Vector Centrality
     - Katz-Centrality
