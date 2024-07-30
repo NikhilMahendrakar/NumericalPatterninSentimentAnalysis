@@ -22,16 +22,15 @@ This paper aims in finding numerical patterns in various sentences. This project
 6. **Mathematical Formula**:
 
     \[
-    \text{Mathematical Formula:} - \frac{\text{Sigmoid}\left(\sum_{i=1}^{n} n_i \cdot \lambda_i\right)}{N} + \frac{\sum_{i=1}^{n} \alpha_i \cdot (\text{total number of neighbours})}{N} + F
+    - \frac{\text{Sigmoid}\left(\sum_{i=1}^{n} n_i \cdot \lambda_i\right)}{N} + \frac{\sum_{i=1}^{n} \alpha_i \cdot (\text{total number of neighbours})}{N} + F
     \]
 
     - Eigen Vector Centrality
     - Katz-Centrality
-    - \(\lambda = \alpha =\)
-    - \(n_i = \text{node}\)
-    - \(N = \text{Total number of nodes}\)
-    - \(F = \text{Estrada index}\)
+    - \(\lambda\), \(\alpha\) are constants
+    - \(n_i\) is the node
+    - \(N\) is the total number of nodes
+    - \(F\) is the Estrada index
 
 7. **Testing**:
     - Once the range has been decided, we test it again with various other sentences and found that similar emotions give out similar numerical values.
-
